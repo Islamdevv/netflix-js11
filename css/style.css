@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+
+body {
+  background: url("https://news.xbox.com/en-us/wp-content/uploads/sites/2/2023/05/Background-size1920x1080-4e1694a6-75aa-4c36-9d4d-7fb6a3102005-bc5318781aad7f5c8520.png");
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+#header {
+  background: #000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav {
+  width: 620px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header nav img {
+  width: 120px;
+}
+
+.header-icons {
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-icons span {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* ? CREATE */
+#create {
+  padding: 20px 0 0 0;
+}
+.create {
+  display: flex;
+  justify-content: space-evenly;
+}
+h4 {
+  margin: 20px 0 10px 0;
+  color: #fff;
+}
+
+.main-create {
+  border-radius: 10px;
+  width: 230px;
+  height: 250px;
+  text-align: center;
+  background-color: rgb(0 0 0 / 75%);
+}
+
+.main-edit {
+  border-radius: 10px;
+  width: 230px;
+  height: 250px;
+  text-align: center;
+  background-color: rgb(0 0 0 / 75%);
+  position: relative;
+  display: none;
+}
+.x {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  border: none;
+  background-color: rgb(0 0 0 / 75%);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.box-input {
+  margin-bottom: 10px;
+}
+input {
+  background: #4c4a4a;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+input::placeholder {
+  color: #aca5a5;
+}
+.btn_create,
+.btn_save {
+  width: 160px;
+  height: 30px;
+  background-color: #e50914;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+/* ? CREATE */
+
+/* ? READ */
+
+.list_movies {
+  padding: 25px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-y: scroll;
+}
+.modal {
+  display: none;
+}
+.card {
+  border-radius: 7px;
+  text-align: center;
+  background-color: #fff;
+  padding: 8px 10px 5px 10px;
+  width: 135px;
+  height: 248px;
+  background-color: #504748;
+  margin: 0 10px;
+}
+.img {
+  border-radius: 7px;
+
+  width: 130px;
+  height: 190px;
+}
+.txt_box {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+}
+.txt_box p {
+  font-size: 14px;
+}
+.btn_box {
+  padding: 10px 0 0 0;
+  display: flex;
+  justify-content: space-around;
+}
+.btn_box button {
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #504748;
+}
+.btn_play {
+  color: rgb(78, 208, 78);
+}
+.btn_delete {
+  color: #e50914;
+}
+.btn_edit {
+  color: burlywood;
+}
+/* ? READ */
